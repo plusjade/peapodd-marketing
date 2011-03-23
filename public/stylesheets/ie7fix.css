@@ -1,0 +1,88 @@
+/*-- INTERNET EXPLORER 7 FIX --*/
+
+header nav li:hover ul {
+	position: absolute;
+	margin-top: 25px;
+	padding-top: 25px; 
+	margin-left: -40px;
+	display: block;
+	background: url(../img/nav_bg_hover.png) repeat transparent;
+}
+
+header nav li:hover li a {
+	background: url(../img/nav_bg.png) repeat;
+	color: #efefef; 
+	display: block;
+	width: 150px;
+	margin-top: 6px;
+}
+
+.gainlayout {min-height: 0;}
+
+#top_content_homepage .app{height: 209px; margin-top: 60px; position: absolute; width: 429px; z-index: 12; margin-left: -235px; }
+#top_content_homepage .description_homepage {margin-top: 265px; margin-left: -235px;}
+#top_content_homepage .applestore {float: left; margin-top: 400px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='../img/appstore_sprite.png');}
+
+#middle_content_homepage #clients ul {float: left; margin-top: 20px;padding-bottom: 15px;}
+#middle_columns {width: 1000px; clear:both; margin-bottom: 50px;}
+#call_us {margin-top: 50px; margin-bottom: -60px;}
+
+#middle_content_about #join_our_team {float: left; clear: none;}
+#middle_content_about #team {margin-bottom: 120px;}
+
+#top_content_portfolio ul {padding-bottom: 50px;}
+#middle_content_portfolio .project {padding-top: 30px;}
+
+#middle_content_contact input {background: url(../img/form_bg.png); width:300px; height: 30px; border: none; font-size: 16px; color: #fff; margin-top: 5px; padding-top: 10px;}
+#middle_content_contact textarea {background: url(../img/textarea_bg.png); width:360px; height: 140px; border: none; font-size: 16px; color: #fff; margin-top: 5px;}
+#middle_content_contact label {font-size: 12px; color: #fde9d9;}
+#middle_content_contact .submit {background: none; color: #8a975b; font-size: 18px; font-family:"Folio Condensed Medium", 'Helvetica Neue Condensed Bold', Impact, Arial Narrow, Arial, Helvetica, sans-serif; font-weight: 500; font-size-adjust: 0.48; font-size-adjust: 0; font-style:normal; text-align: left; margin-top: 0; margin-left: -5px;}
+
+#middle_content_contact .content h5 {background: url(../img/or_icon.png); position: relative;}
+#middle_content_contact #map {margin-top: -50px;}
+#middle_content_contact #call_us {margin-bottom: 20px;}
+
+#recent_posts_category #recent_posts_titles{width: 860px;}
+#recent_posts_category #recent_posts_links {width: 1000px;}
+#recent_posts_category #recent_posts_links ul {width: 200px; float: left;}
+#recent_posts_category #recent_posts_links li {width: 250px; margin: 0; margin-bottom: -4px; padding:0;}
+#recent_posts_category #recent_posts_links .list_border {margin: 0; padding: 0; line-height: 1;}
+#recent_posts_links .categories_number {float: right; background: url(../img/number_bg.png) 5% 65% no-repeat; width: 20px; height: 23px; margin-bottom: -6px; color: #dedede; text-align: center; font-style: italic; margin-right: 10px; padding-left: 2px;}
+#recent_posts_category #recent_posts_links #categories {margin-left: 120px;}
+#recent_posts_category #recent_posts_links #categories  a {float: left;}
+#recent_posts_category #recent_posts_links #categories  .categories_number {float: right;}
+#recent_posts_category #recent_posts_links #categories li {margin-bottom:-3px; padding-bottom: 0;}
+#recent_posts_category #recent_posts_links #archive {margin-left: 100px;}
+#recent_posts_category #recent_posts_links #archive  a {float: left;}
+#recent_posts_category #recent_posts_links #archive  .categories_number {float: right;}
+#recent_posts_category #recent_posts_links #archive li {margin-bottom:-3px; padding-bottom: 0;}
+
+#big_text ul li{list-style:none; padding-left:16px; background: transparent url(../img/bullet.png) no-repeat left center;}
+#big_text ol li {list-style-position:inside; list-style-type: decimal;}
+
+#left_blog_single p {float: left;}
+#left_blog_single #big_text {float: none;}
+#left_blog_single #big_text p {float: none; width: 720px;}
+#left_blog_single #big_text .quote {width: 670px;}
+#left_blog_single #big_text ul { float: none; width: 720px; list-style: url(../img/bullet.png);}
+#left_blog_single #big_text ol { float: none; width: 720px; list-style: decimal;}
+#left_blog_single #comment_form p {clear: both; width: 400px;}
+#left_blog_single #comment_form .or_badge {margin-left: 110px;}
+#left_blog_single form {float: left; clear: both; margin-top: -20px;} 
+#left_blog_single label {width: 300px; float: left; margin-top: -20px;}
+#left_blog_single input {margin-top: -20px; padding-top: 10px; height: 30px; padding-left: 10px;}
+#left_blog_single textarea {margin-top: -20px; padding-left: 10px;}
+#left_blog_single #comment_list {float: none; padding-bottom: 50px;}
+#left_blog_single #comment_list h3 {position: absolute; margin-top: -30px;}
+#left_blog_single #comment_list .single_comment {float: none; margin-top: 40px;}
+#left_blog_single #comment_list .single_comment h3 {float: left; position: relative; margin-top: 0;}
+#left_blog_single #comment_list .single_comment p {width: 380px; padding-top: 5px;}
+#left_blog_single #bs_bottom_border {padding-top: 60px;}
+#right_blog_single #share_title {clear: none;}
+#right_blog_single #social_icons {clear: none;}
+
+#bottom_content #bottom_columns {width: 950px;}
+#bottom_content .bottom_column {margin-right: 40px;}
+#bottom_content .list_link {margin: -50px 0 0 80px; float: left;}
+
+footer .content {padding-bottom: 25px;}

@@ -1,0 +1,17 @@
+/*-- INTERNET EXPLORER 8 FIX --*/
+
+#top_content_homepage .app{height: 209px; margin-top: 60px; position: absolute; width: 429px; z-index: 12;}
+#top_content_homepage .description_homepage {margin-top: 265px;}
+#top_content_homepage .applestore {float: left; margin-top: 400px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='../img/appstore_sprite.png');}
+
+#contact_form input {padding: 15px 0 0 10px; height: 35px;}
+#map #google_map {margin-top: 170px;}
+
+#recent_posts_titles {width: 1000px;}
+#recent_posts_titles #categories_title {margin-left: 222px;}
+#recent_posts_titles #archive_title {margin-left: 236px;}
+#recent_posts_links #categories {margin-left: 62px;}
+#recent_posts_links .categories_number {float: right; background: url(../img/number_bg.png) 5% 65% no-repeat; width: 20px; height: 23px; margin-bottom: -6px; color: #dedede; text-align: center; font-style: italic; margin-left: -20px;}
+#recent_posts_category #recent_posts_links #archive {margin-left: 75px;}
+
+#comment_form input {padding: 15px 0 0 10px; height: 35px;}
